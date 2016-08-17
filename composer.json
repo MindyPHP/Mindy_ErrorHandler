@@ -1,0 +1,31 @@
+{
+  "name": "mindy/error_handler",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Mindy\\ErrorHandler\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Mindy\\ErrorHandler\\Tests\\": "test"
+    }
+  },
+  "require": {
+    "mindy/exception": "*",
+    "mindy/helper": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "phpunit/php-code-coverage": "^4"
+  },
+  "authors": [
+    {
+      "name": "Maxim Falaleev",
+      "email": "max@studio107.ru",
+      "homepage": "http://studio107.ru",
+      "role": "Developer"
+    }
+  ]
+}
