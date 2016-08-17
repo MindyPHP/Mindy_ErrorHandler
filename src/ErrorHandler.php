@@ -5,6 +5,7 @@ namespace Mindy\ErrorHandler;
 use ErrorException;
 use Mindy\Helper\Traits\Accessors;
 use Mindy\Helper\Traits\Configurator;
+use Mindy\Base\Mindy;
 
 use Mindy\Exception\CompileErrorException;
 use Mindy\Exception\CoreErrorException;
